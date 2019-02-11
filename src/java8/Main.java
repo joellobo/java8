@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// Ordenando coleções
+		// Sorting collections
 		List<String> palavras = Arrays.asList("rodrigo", "paulo", "caelum");
 
 		Comparator<String> comparador = new Comparator<String>() {
