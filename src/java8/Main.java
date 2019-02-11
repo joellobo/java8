@@ -23,6 +23,5 @@ public class Main {
 		// Default method
 		DefaultMethod dm = new DefaultMethod();
 		dm.print("Hello");
-		
 	}
 }
