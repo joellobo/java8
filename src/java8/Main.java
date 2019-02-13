@@ -23,5 +23,19 @@ public class Main {
 		// Default method
 		DefaultMethod dm = new DefaultMethod();
 		dm.print("Hello");
+		
+		// Lambda
+		// functional interface See java.util.function
+		
+		Comparator<String> comparador2 = (s1, s2) -> {
+	        return Integer.compare(s1.length(), s2.length());
+		};
+		
+		Comparator<String> comparador3 = (s1, s2) -> Integer.compare(s1.length(), s2.length());
+
+		palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+		
+		palavras.sort(Comparator.comparing(s -> s.length()));
+
 	}
 }
