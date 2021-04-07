@@ -7,7 +7,7 @@ public class TesteCalculator {
 //		Runnable r = () -> System.out.println("Hi");
 //		new Thread(r).run();
 
-	Calculator c = () -> System.out.println("Hi");
+//	Calculator c = () -> System.out.println("Hi");
 	
 	
 	}
